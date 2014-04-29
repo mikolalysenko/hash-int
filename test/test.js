@@ -1,7 +1,7 @@
 var hashInt = require("../hashint.js")
   , numeric = require("numeric")
 
-require("tap").test("hash-int", function(t) {
+require("tape")("hash-int", function(t) {
 
 
   for(var i=1; i<=100; ++i) {
